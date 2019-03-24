@@ -240,7 +240,8 @@ int main() {
   int x = 0;
   int y = 0;
   while(x< 5) {
-    y = x - y;
+   // y = x - y;
+	y = y + x;
   printf("%i%i",x,y );
   x = x + 1;
   }
